@@ -1,0 +1,17 @@
+.projectCards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.head{
+    font-size: 60px;
+}
+
+.detals{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 30% 30% 30%;
+    flex-wrap: wrap;
+    grid-gap: 50px;
+}

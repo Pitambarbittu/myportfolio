@@ -1,0 +1,38 @@
+.About__first{
+    margin-top: 5vh;
+    width: 60vw;
+}
+
+.About__first h1{
+    font-size: 50px;
+}
+.About__second h1{
+    font-size: 50px;
+}
+
+.About__first p{
+    font-size: 20px;
+}
+
+.About__second{
+    margin-top: 5vh;
+}
+.stack{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+.stack{
+    font-weight: bold;
+}
+.prep{
+    margin-top: 10px;
+    display: flex;
+}
+.prep p{
+    margin-left: 20px;
+}
+
+.card__section{
+    display: flex;
+}

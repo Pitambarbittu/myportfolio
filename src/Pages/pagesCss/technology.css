@@ -1,0 +1,27 @@
+.technology{
+    margin-top: 5vh;
+}
+.technology h1{
+    font-size: 50px;
+}
+.tech{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tools{
+    margin-top: 5vh;
+   
+}
+
+.tools h1{
+    font-size: 50px;
+}
+
+.tools__img {
+    margin-top: 5vh;
+    display: flex;
+    height: 115px;
+    justify-content: space-around;
+}

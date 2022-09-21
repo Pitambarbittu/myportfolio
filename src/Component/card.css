@@ -1,0 +1,25 @@
+.mainCard{
+    box-sizing: border-box  ;
+    width: 25vw;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+.card{
+    padding: 0 10px;
+}
+
+.mainCard  .image img{
+    border-radius: 20px 20px 0px 0px ;
+}
+
+.buttom p{
+    font-size: 20px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+.links a{
+    margin-left: 10px;
+}
