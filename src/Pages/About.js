@@ -1,6 +1,6 @@
-import React from 'react'
-import './pagesCss/about.css'
-import man from '../Image/man.png'
+import React from "react";
+import "./pagesCss/about.css";
+import man from "../Image/man.png";
 export const About = () => {
   return (
     <div className="About">
@@ -10,10 +10,22 @@ export const About = () => {
           <br />
           <br />
           <p>
-            Frontend developer having expertise in frontend development and
-            highly motivated individual dedicated to writing clear, concise,
-            robust code that works. I like creating products that either have
-            fun and nifty features or solve a genuine problem for people.
+            I'm a skilled Software Engineer specializing in JavaScript,
+            TypeScript, React, MongoDB, Node.js, and cloud computing with Azure
+            and AWS. My expertise spans full-stack development, from building
+            scalable APIs to integrating complex systems like Microsoft Graph
+            API for enhanced productivity tools. <br /> <br />
+
+            I excel in optimizing processes and enhancing user experiences,
+            evidenced by my contributions to backend development and
+            microservices architecture adoption. Fluent in English, Hindi, and
+            Bengali, I bring strong communication skills to collaborative
+            projects. <br /> <br />
+            
+            With a Bachelor's degree in Mechanical Engineering and
+            certifications in AWS Cloud Essentials and New Relic, I'm committed
+            to continuous learning and delivering innovative solutions that
+            drive business efficiency and client satisfaction.
           </p>
         </div>
         <section>
@@ -74,7 +86,8 @@ export const About = () => {
           client satisfaction.
           <br />
           ● Integrated Microsoft Graph API to access and manipulate Outlook 365
-          tools like calendars, emails, and user profiles, and build APIs around the data using Node js.
+          tools like calendars, emails, and user profiles, and build APIs around
+          the data using Node js.
           <br />
           ● Contributed significantly to a team of 5 as the primary backend
           developer for an E-commerce website and Jira Xpertise Manager,
@@ -150,4 +163,4 @@ export const About = () => {
       </div>
     </div>
   );
-}
+};
