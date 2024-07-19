@@ -4,10 +4,18 @@
 .technology h1{
     font-size: 50px;
 }
-.tech{
+.tech {
     margin-top: 5vh;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tech img {
+    display: flex;
+    margin: 2vh 20px; 
+    height: 115px;
+    justify-content: space-between;
 }
 
 .tools{
@@ -22,6 +30,27 @@
 .tools__img {
     margin-top: 5vh;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.tools__img img {
+    display: flex;
+    margin: 2vh 30px; 
     height: 115px;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 768px) {
+    .tech img {
+        margin: 5vh 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tools__img img {
+        margin: 5vh 5px;
+    }
 }

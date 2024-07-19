@@ -9,6 +9,13 @@ import firebase from '../tech/firebase.png'
 import postman from '../tech/postman.png'
 import node from '../tech/node.png'
 import react from '../tech/react.png'
+import aws from '../tech/aws.png'
+import azure from '../tech/azure.png'
+import mongoDB from '../tech/mongoDB.png'
+import docker from '../tech/docker.png'
+import kubernetes from '../tech/kubernetes.png'
+import newrelic from '../tech/newrelic.png'
+
 
 
 import './pagesCss/technology.css'
@@ -24,7 +31,10 @@ export const Technologies = () => {
         <img src= {js} alt="" />
         <img src= {html} alt="" />
         <img src= {react} alt="" />
+        <img src= {mongoDB} alt="" />
         <img src= {node} alt="" />
+        <img src= {aws} alt="" />
+        <img src= {azure} alt="" />
       </div>
        <div className='tools'>
        <h1>Tools</h1>
@@ -33,8 +43,11 @@ export const Technologies = () => {
           <img src={vs} alt="" />
           <img src={git} alt="" />
           <img src={npm} alt="" />
-          <img src={firebase} alt="" />
+          <img src={newrelic} alt="" />
           <img src={postman} alt="" />
+          <img src={firebase} alt="" />
+          <img src={docker} alt="" />
+          <img src={kubernetes} alt="" />
        </div>
     </div>
   )
