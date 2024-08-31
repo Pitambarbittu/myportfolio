@@ -1,26 +1,61 @@
-.Home{
+@keyframes bounce-in {
+    0% {
+        transform: translateY(-100vh) scale(1.5);
+        opacity: 0;
+    }
+
+    60% {
+        transform: translateY(0) scale(1.2);
+        opacity: 1;
+    }
+
+    80% {
+        transform: translateY(-15px) scale(1.1);
+    }
+
+    100% {
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes bounce-stable {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+/* Apply the animation to the HI text */
+.div__left .first h1:first-of-type {
+    animation: bounce-in 1s ease-out forwards, bounce-stable 1s ease-out 1s infinite;
+}
+
+/* Desktop View (unchanged) */
+.Home {
     display: flex;
     justify-content: space-between;
 }
 
-.div__left{
+.div__left {
     margin-left: 7vw;
     margin-top: 20vh;
-    animation: left 3s 1s linear  ;
-}
-@keyframes left {
-    0%   { left:0px; top:0px;}
-    100% { left:100%; top:0px}
+    animation: left 3s 1s linear;
 }
 
-.div__left h1{
+.div__left h1 {
     font-size: 50px;
 }
-.div__left h2{
+
+.div__left h2 {
     font-size: 40px;
 }
-.div__left button{
 
+.div__left button {
     background-color: transparent;
     font-size: 30px;
     cursor: pointer;
@@ -29,23 +64,52 @@
     border-radius: 30px;
     border: 2px solid blueviolet;
 }
-.div__rigth{
+
+.div__rigth {
     margin-top: 20vh;
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    
 }
-.div__rigth img{
+
+.div__rigth img {
     height: 25em;
     width: 20em;
-    border-radius: 5%; 
+    border-radius: 5%;
     position: absolute;
-   
-    
 }
 
+/* Mobile View */
+@media (max-width: 768px) {
+    .Home {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
+    .div__left {
+        margin: 0;
+        margin-top: 10vh;
+        padding: 0 20px;
+        animation: none;
+    }
 
+    .div__left h1 {
+        font-size: 30px;
+    }
 
+    .div__left h2 {
+        font-size: 25px;
+    }
 
+    .div__left button {
+        font-size: 20px;
+        width: 250px;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .div__rigth {
+        display: none;
+    }
+}

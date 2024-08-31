@@ -1,25 +1,58 @@
-.mainCard{
-    box-sizing: border-box  ;
+.mainCard {
+    box-sizing: border-box;
     width: 25vw;
     border: 2px solid red;
     border-radius: 20px;
 }
-.card{
+
+.card {
     padding: 0 10px;
 }
 
-.mainCard  .image img{
-    border-radius: 20px 20px 0px 0px ;
+.mainCard .image img {
+    border-radius: 20px 20px 0px 0px;
 }
 
-.buttom p{
+.buttom p {
     font-size: 20px;
 }
 
-.links{
+.links {
     display: flex;
     justify-content: space-between;
 }
-.links a{
+
+.links a {
     margin-left: 10px;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+    .mainCard {
+        width: 80vw;
+        border: 1px solid red;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+    .buttom p {
+        font-size: 16px;
+    }
+
+    .links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .links a {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .links i {
+        margin-right: 5px;
+    }
 }

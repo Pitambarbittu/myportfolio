@@ -15,13 +15,11 @@ export const About = () => {
             and AWS. My expertise spans full-stack development, from building
             scalable APIs to integrating complex systems like Microsoft Graph
             API for enhanced productivity tools. <br /> <br />
-
             I excel in optimizing processes and enhancing user experiences,
             evidenced by my contributions to backend development and
             microservices architecture adoption. Fluent in English, Hindi, and
             Bengali, I bring strong communication skills to collaborative
             projects. <br /> <br />
-            
             With a Bachelor's degree in Mechanical Engineering and
             certifications in AWS Cloud Essentials and New Relic, I'm committed
             to continuous learning and delivering innovative solutions that

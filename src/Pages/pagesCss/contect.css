@@ -1,11 +1,28 @@
-.contect{
+.contect {
     text-align: center;
-    margin-top:20vh ;
+    margin-top: 20vh;
 }
-.contect h1{
+
+.contect h1 {
     font-size: 70px;
 }
 
 .contect p {
     font-size: 25px;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+    .contect {
+        margin-top: 10vh;
+        padding: 0 10vw;
+    }
+
+    .contect h1 {
+        font-size: 20px;
+    }
+
+    .contect p {
+        font-size: 18px;
+    }
 }

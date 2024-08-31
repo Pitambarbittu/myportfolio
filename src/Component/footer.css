@@ -1,8 +1,35 @@
-.footer{
+.footer {
     position: relative;
     margin-top: 20px;
     bottom: 0px;
     align-items: center;
     margin-left: 30vw;
     opacity: 0.1;
+}
+
+.footer__icons {
+    display: none;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+    .footer {
+        margin-left: 0;
+        text-align: center;
+        padding: 10px;
+        opacity: 0.1;
+    }
+
+    .footer__icons {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        justify-content: space-evenly;
+    }
+
+    .footer__icons img {
+        margin: 5px 0;
+        width: 30px;
+        height: 30px;
+    }
 }
